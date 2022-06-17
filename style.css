@@ -20,3 +20,23 @@ td {
   height: 50px;
   width: 50px;
 }
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
