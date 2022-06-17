@@ -1,7 +1,4 @@
 // Your code here
-const ul = document.getElementById("the-ul");
-const newLi = document.createElement("li");
-ul.appendChild(newLi);
 
 const table = document.getElementsByTagName("table")[0];
 
@@ -14,9 +11,5 @@ function makeRow() {
   table.appendChild(row);
 }
 
-makeRow();
-makeRow();
-makeRow();
-makeRow();
-makeRow();
-makeRow();
+const addrowButton = document.getElementById("add-row");
+addrowButton.addEventListener("click", makeRow);
